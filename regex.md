@@ -2,5 +2,8 @@ Insert at beginning of line (vscode):
 ^(.+)$  
 [Inserted text]$1  
 
-Select character at end of line (vscode):  
+Select , at end of line (vscode):  
 ,$
+
+Find first , (negative lookbehind):
+(?<!,.*),
